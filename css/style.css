@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* nav start */
+
+
+.nav-ic .fa-solid {
+    color: grey;
+    
+}
+
+.nav1 {
+    box-shadow:  0px 5px 5px 0px;
+
+}
+/* nav end */
+
+
+
+
+
+
+/* intro start */
+
+.intro{
+    background-color: rgb(66, 255, 246);
+    height: 675px;
+}
+
+.text .fh {
+  
+    
+    font-weight: bold;
+    font-size: xx-large;
+    
+    margin-top: 150px;
+}
+
+
+.text .sh {
+    font-weight: bold;
+    font-size: xx-large;
+  
+}
+
+
+.text button {
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 35px;    
+   border: purple;
+   border-radius: 5px; 
+   transition: all;
+}
+
+.text button:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: rgb(100, 0, 128);
+   
+}
+
+/* intro end */
+
+
+/* services start */
+
+.text1{
+    display: flex;
+}
+
+.text1 .fa-solid {
+    
+    scale: 1.9;
+    margin-top: 13px;
+    color: purple;
+    margin-right: 30px;
+    
+}
+
+.text1 h3 {
+    font-weight: 550;
+}
+
+.text2 p {
+    color:rgb(93, 93, 93);
+}
+
+
+
+.services{
+    border-bottom: solid;
+    border-color: rgb(182, 182, 182);
+}
+
+/* services end */
+
+
+
+/* collections start */
+.card  {
+    filter: brightness(50%);
+    transform: all;
+    overflow: hidden;
+}
+
+.card:hover{
+    filter: brightness(75%);
+    scale: 1.1;
+   transition: 0.7s;
+}
+
+.card {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    width: 90%;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:525px) and (min-width:0px){
+
+    .text .fh{
+        margin-top: -1px;
+    }
+}
